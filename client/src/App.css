@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Space Mono", monospace;
+}
+
+*::selection {
+  color: black;
+  background-color: rgb(255, 249, 249);
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #f2ede7;
+  background-image: linear-gradient(
+    to right bottom,
+    #142664,
+    #005699,
+    #0088b9,
+    #00b8c0,
+    #00e6b3
+  );
+}

@@ -1,0 +1,126 @@
+.mainHome {
+  width: 100%;
+  height: calc(100vh - 6rem);
+  display: flex;
+  align-items: center;
+}
+
+.leftHomeSide {
+  height: 100%;
+  width: 45%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.leftHomeSide img {
+  width: 30rem;
+  height: 30rem;
+}
+
+.rightHomeSide {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 15rem;
+  flex-direction: column;
+  height: 100%;
+  width: 55%;
+}
+.rightHomeSide h1 {
+  font-size: 3.5rem;
+  margin-bottom: 5.5rem;
+}
+.infoMag p {
+  color: #000000;
+  padding-right: 10rem;
+  text-align: justify;
+  font-size: 2rem;
+}
+
+.btnBuyNow {
+  margin-top: 10rem;
+}
+
+.btnBuyNow a {
+  text-decoration: none;
+  color: #01ddaf;
+  padding: 0.5rem 3.5rem;
+  border-radius: 8px;
+  background-color: #142664;
+  font-size: 2.5rem;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 1rem 2.5rem rgba(0, 0, 0, 0.5);
+}
+
+.btnBuyNow a:hover {
+  color: #142664;
+  background-color: #01ddaf;
+}
+
+@media only screen and (max-width: 900px) {
+  .mainHome {
+    min-height: 93vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .leftHomeSide {
+    margin-top: 5rem;
+    width: 100%;
+    height: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .leftHomeSide img {
+    width: 15rem;
+    height: 15rem;
+  }
+
+  .rightHomeSide {
+    width: 100vw;
+    margin-top: 5rem;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 0 !important;
+  }
+
+  .rightHomeSide h1 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .infoMag p {
+    text-align: center;
+    color: #000000;
+    font-size: 2rem;
+    padding-right: 0rem;
+    padding: 0 2rem;
+  }
+
+  .btnBuyNow {
+    margin-top: 5rem;
+  }
+
+  .btnBuyNow a {
+    text-decoration: none;
+    color: #01ddaf;
+    padding: 0.5rem 3.5rem;
+    border-radius: 8px;
+    background-color: #142664;
+    font-size: 2.5rem;
+    transition: all 0.2s ease-in-out;
+    box-shadow: 0 1rem 2.5rem rgba(0, 0, 0, 0.5);
+  }
+
+  .btnBuyNow a:hover {
+    color: #142664;
+    background-color: #01ddaf;
+  }
+}
