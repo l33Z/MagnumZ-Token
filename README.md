@@ -5,7 +5,7 @@ The MagnumZ web app lets you buy the MagunZ token (like Doge Coin Token) using t
 
 ## 🚀 Live Demo
 
-- Click Here : [@MagnumZ](https://z-transfer.netlify.app/)
+- Click Here : [@MagnumZ](https://magnumz.netlify.app/)
 
 ## 👀 Overview
 
